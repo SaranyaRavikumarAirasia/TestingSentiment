@@ -2,7 +2,7 @@ streamlit==1.41.1
 pandas==1.5.3
 textblob==0.15.3
 Pillow==9.5.0
-plotly==5.14.1
-text2emotion==0.0.7
+plotly==5.14.1  # Or adjust if you need a version compatible with your Python version
+text2emotion==0.0.5
 numpy==1.23.5
 opencv-python==4.7.0.72
