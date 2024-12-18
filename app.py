@@ -1,24 +1,28 @@
 import streamlit as st
 import sidebar
 import textPage
-# import audioPage
 import imdbReviewsPage
 import imagePage
+
+# You can add more pages here when you implement them
+# import audioPage
 # import videoPage
 # import twitterAnalysisPage
 
-# st.title("Hello")
+# Show the sidebar and get the selected page
 page = sidebar.show()
 
-if page=="Text":
+# Render the selected page
+if page == "Text":
     textPage.renderPage()
-# elif page=="Audio":
-#     audioPage.renderPage()
-elif page=="IMDb movie reviews":
+elif page == "IMDb movie reviews":
     imdbReviewsPage.renderPage()
-elif page=="Image":
+elif page == "Image":
     imagePage.renderPage()
-# elif page=="Video":
+# Uncomment and implement the following pages if needed
+# elif page == "Audio":
+#     audioPage.renderPage()
+# elif page == "Video":
 #     videoPage.main()
-# elif page=="Twitter Data":
+# elif page == "Twitter Data":
 #     twitterAnalysisPage.renderPage()
