@@ -5,3 +5,12 @@ sklearn
 plotly
 tensorflow == 2.3.0
 altair
+pickle
+textblob
+PIL
+text2emotion
+plotly
+io
+modla
+json
+cv2
