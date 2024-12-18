@@ -1,16 +1,11 @@
-numpy == 1.18.5
-pandas == 1.0.5
-streamlit == 0.79.0
-sklearn
+numpy=1.21.0
+pandas==1.0.5
+streamlit=1.0.0
+scikit-learn
 plotly
-tensorflow == 2.3.0
+tensorflow>=2.3.0
 altair
-pickle
 textblob
-PIL
+Pillow  # PIL is the old package, Pillow is the current one
 text2emotion
-plotly
-io
-modla
-json
-cv2
+opencv-python  # For OpenCV (cv2 is part of this package)
